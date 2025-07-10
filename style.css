@@ -119,7 +119,7 @@ nav{
 
 /* Productive Section start */
 .Productive-section{
-     width:1140px;
+    width:1140px;
     height: 306px;
     margin: auto;
     margin-top: 116px;
@@ -166,3 +166,89 @@ nav{
     text-align: center;
 }
 /* Productive Section end */
+
+/* Review Section Start */
+.Review-section{
+    width:1140px;
+    height: 306px;
+    margin: auto;
+    margin-top: 137px;
+}
+.Review-section h1{
+    font-family: raleway;
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+}
+.Review-persons{
+    width:1140px;
+    height: 243px;
+    display: flex;
+    justify-content: space-around;
+}
+.review-person{
+    width:320px;
+    height:243px;
+    border:2px solid rgba(242, 237, 237, 1);
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 24px;
+}
+.star-img{
+    width:116px;
+    height: 20px;
+    color: rgba(255, 184, 5, 1);
+}
+.star-img img{
+    width: 20px;
+    height: 20px;
+}
+.review-person h3{
+    font-family:raleway;
+    font-size: 20px;
+    font-weight: bold;
+}
+.review-person p{
+    font-family:raleway;
+    font-size:16px;
+    font-weight:normal;
+    color: rgba(0, 0, 0, 1);
+}
+.review-person-container{
+    width: 318.67px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.review-person-img{
+    width: 40px;
+    height: 40px;
+}
+.review-person-img img{
+    border-radius: 100%;
+}
+.review-person-description{
+    margin:0px 0px;
+    width: 295px;
+    height: 40px;
+}
+.review-person-description h5{
+    margin:0;
+    margin-top: 5px;
+    font-family: raleway;
+    font-size: 14px;
+    font-weight: bold;
+     color: rgba(0, 0, 0, .5);
+}
+.review-person-description p{
+    margin:0;
+     margin-top: 2px;
+    font-family: raleway;
+    font-size:12px;
+    font-weight: normal;
+     color: rgba(0, 0, 0, .4);
+}
+/* Review Section end */
