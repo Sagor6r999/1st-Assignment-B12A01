@@ -1,3 +1,75 @@
-h1{
-    color:red;
+body{
+    max-width: 1440px;
+    margin:0;
+    margin: auto; /* used to center the body cause my pc screen is bigger then 1440px */
+    background:rgb(253, 241, 255); /* used to see extra part  */
 }
+/* shared items start */
+.primary-button{
+    font-family:raleway;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* shared items end */
+
+/* header start */
+header{
+    width: 1440px;
+    height: 698px;
+    background-image: url('Assets/Hero-bg.png');
+}
+nav{
+    width: 1140px;
+    height: 151px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; 
+}
+.nav-logo{
+    font-family: inter;
+    font-weight: 900;
+    font-size: 34px;
+    color: #4E47FF;
+}
+.nuv-button{
+    width: 132px;
+    height: 48px;
+}
+.nuv-button a{
+    text-decoration: none;
+    color: #FFFFFF;   
+}
+.header-banner{
+    width: 905px;
+    height: 237px;
+    margin: auto;
+    margin-top: 150px;
+}
+.header-banner h1{
+    font-family:raleway;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+}
+.header-button{
+    margin:auto;
+    height: 48px;
+    width: 174px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-button a {
+    text-decoration: none;
+    color: #FFFFFF;   
+}
+/* header end */
+
+
