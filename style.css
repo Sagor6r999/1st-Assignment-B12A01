@@ -2,7 +2,7 @@ body{
     max-width: 1440px;
     margin:0;
     margin: auto; /* used to center the body cause my pc screen is bigger then 1440px */
-    background:rgb(253, 241, 255); /* used to see extra part  */
+    background:#FFFFFF; /* used to see extra part  */
 }
 /* shared items start */
 .primary-button{
@@ -37,11 +37,11 @@ nav{
     font-size: 34px;
     color: #4E47FF;
 }
-.nuv-button{
+.nav-button{
     width: 132px;
     height: 48px;
 }
-.nuv-button a{
+.nav-button a{
     text-decoration: none;
     color: #FFFFFF;   
 }
@@ -72,4 +72,47 @@ nav{
 }
 /* header end */
 
+
+/* Action Section start */
+.Action-section{
+    width: 1140px;
+    height: 328px;
+    margin: 116px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Action-description{
+    width: 517px;
+    height: 203px;
+    margin: 62.5px 0px;
+}
+.Action-description h1{
+    margin: 0px;;
+    font-family: raleway;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.Action-description p{
+    font-family: raleway;
+    font-size: 24px;
+    font-weight: regular;
+    color: rgba(37, 36, 50, .5);
+}
+.Action-button{
+    width:239;
+    height:48px;    
+}
+.Action-button a{
+    text-decoration: none;
+    color: #FFFFFF;   
+    margin: 12px 36px;    
+}
+.Action-img{
+    width: 403px;
+    height: 328px;
+    border: none;
+    border-radius: 48px;
+}
+/* Action Section end */
 
