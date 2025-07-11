@@ -299,5 +299,80 @@ nav{
 
 
 /* newsletter Section start */
-
+.newsletter{
+    width: 1140px;
+    height: 632px;
+    margin: auto;
+    margin-top: 137px;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-text{
+     width: 528px;
+    height: 232px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.newsletter-text h1{
+    font-family: raleway;
+    font-size: 97px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);  
+    margin-top: 0px;
+}
+.newsletter-form{
+    width: 497px;
+    height: 490px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.newsletter-form label{
+    font-family: inter;
+    font-size: 18px;
+    font-weight: medium;
+    color: rgba(37, 36, 50, 1);
+    display: block; 
+}
+.newsletter-form input{
+    font-family: inter;
+    font-size:20px;
+    font-weight: regular;
+    color: rgba(37, 36, 50, .5);
+    display: block;
+    margin:10px 0px;
+    padding-left: 32px ;
+    height: 70px;
+    width:465px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+}
+.newsletter-form textarea{
+    font-family: inter;
+    font-size:20px;
+    font-weight: regular;
+    color: rgba(37, 36, 50, .5);
+    display: block;
+    margin:10px 0px;
+    padding-left:32px;
+    padding-top: 20px;
+    height: 135px;
+    width:465px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    resize: none;
+}
+.newsletter-form-button{
+    font-family: raleway;
+    font-size: 16px;
+    font-weight: bold;
+    height: 62px;
+    width: 501px;
+    border-radius: 10px;  
+}
+.newsletter-form-button a{
+   text-decoration: none;
+   color: white;
+}
 /* newsletter Section start */
