@@ -1,10 +1,13 @@
 body{
-    max-width: 1440px;
-    margin:0;
-    margin: auto; /* used to center the body cause my pc screen is bigger then 1440px */
-    background:#F8F8FF; /* used to see extra part  */
+    width: 1140px;
+    margin: 0 auto; /* used to center the body cause my pc screen is bigger then 1440px */
+   background:#F8F8FF; /* used to see extra part  */
+   
+
 }
-/* shared items start */
+
+/* Shared items start */
+
 .primary-button{
     font-family:raleway;
     font-size: 16px;
@@ -24,13 +27,15 @@ body{
     border: 2px solid #4E47FF;
     transition: all 0.2s linear;
 }
-/* shared items end */
+/* Shared items end */
 
-/* header start */
+/* Header start */
 header{
     width: 1440px;
     height: 698px;
-    background-image: url('Assets/Hero-bg.png');
+    background-image: url('Assets/Hero-bg.png') ;
+    background-size: 1440px 698px ;
+    margin: auto;
 }
 nav{
     width: 1140px;
@@ -79,14 +84,19 @@ nav{
     text-decoration: none;
     color: #FFFFFF;   
 }
-/* header end */
-
+/* Header end */
 
 /* Action Section start */
-.Action-section{
+.Action-Section{
+    width: 1440px;
+    height: 328px;
+    margin: 0 auto;   
+    background:#F8F8FF;
+}
+.Action-Section-Container{
     width: 1140px;
     height: 328px;
-    margin: 116px auto;
+    margin: 116px auto; 
     display: flex;
     justify-content: space-between;
 }
@@ -128,6 +138,12 @@ nav{
 
 /* Productive Section start */
 .Productive-section{
+    width: 1440px;
+    height:306px;
+    margin: 0 auto;   
+    background:#F8F8FF;  
+}
+.Productive-container{
     width:1140px;
     height: 306px;
     margin: auto;
@@ -136,12 +152,12 @@ nav{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius:24px;
 }
-.Productive-container{
+.Productive-content{
     width: 856px;
     height: 206px;
     margin:50px  auto;
 }
-.Productive-container h1{
+.Productive-content h1{
     font-family: raleway;
     font-size: 32px;
     font-weight: bold;
@@ -178,12 +194,18 @@ nav{
 
 /* Review Section Start */
 .Review-section{
+    width: 1440px;
+    height:306px;
+    margin: 0 auto;   
+    background:#F8F8FF;  
+}
+.Review-container{
     width:1140px;
     height: 306px;
     margin: auto;
     margin-top: 137px;
 }
-.Review-section h1{
+.Review-container h1{
     font-family: raleway;
     font-size: 42px;
     font-weight: bold;
@@ -262,9 +284,14 @@ nav{
 }
 /* Review Section end */
 
-
 /* Focus Section start */
 .focus{
+    width: 1440px;
+    height: 696.77px;
+    margin: 0 auto;   
+    background:#F8F8FF;  
+}
+.focus-container{
     width: 1140px;
     height: 696.77px;
     margin: auto;
@@ -307,8 +334,14 @@ nav{
 }
 /* Focus Section end */
 
-/* newsletter Section start */
+/* Newsletter Section start */
 .newsletter{
+    width: 1440px;
+    height: 632px;
+    margin: 0 auto;   
+    background:#F8F8FF;  
+}
+.newsletter-container{
     width: 1140px;
     height: 632px;
     margin: auto;
@@ -385,7 +418,7 @@ nav{
    text-decoration: none;
    color: white;
 }
-/* newsletter Section start */
+/* Newsletter Section end */
 
 /* Footer Section start */
 footer{
@@ -407,9 +440,9 @@ footer{
     text-align: center;
 }
 .footer-container p{
-    font-family:raleway;
-    font-size:16px;
-    font-weight:normal;
+    font-family: raleway;
+    font-size: 16px;
+    font-weight: normal;
     color: rgba(137, 135, 161, 1);
     text-align: center;
 }
@@ -432,4 +465,4 @@ footer{
     font-weight: small;
     margin-right: 20px;
 }
-/* Footer Section start */
+/* Footer Section end */
