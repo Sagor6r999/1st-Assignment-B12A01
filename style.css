@@ -15,6 +15,15 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
+.hover-button:hover a{
+    color: #3A36D8;
+}
+.hover-button:hover {
+    background-color: White;
+    color: #3A36D8;
+    border: 2px solid #4E47FF;
+    transition: all 0.2s linear;
+}
 /* shared items end */
 
 /* header start */
@@ -297,8 +306,6 @@ nav{
     color: #FFFFFF;     
 }
 /* Focus Section end */
-
-
 
 /* newsletter Section start */
 .newsletter{
