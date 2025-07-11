@@ -2,7 +2,7 @@ body{
     max-width: 1440px;
     margin:0;
     margin: auto; /* used to center the body cause my pc screen is bigger then 1440px */
-    background:#f2f2f2; /* used to see extra part  */
+    background:#F8F8FF; /* used to see extra part  */
 }
 /* shared items start */
 .primary-button{
@@ -260,7 +260,7 @@ nav{
     height: 696.77px;
     margin: auto;
     margin-top: 137px;
-    border : 2px solid rgba(242, 237, 237, 1);
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 14px;
     text-align: center;
 }
@@ -270,6 +270,7 @@ nav{
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
     text-align: center;
+    padding-top: 50px;
     margin-bottom: 15px;
 }
 .focus p{
@@ -284,6 +285,7 @@ nav{
     width: 840px;
     height: 364.77px;
     border-radius: 48px;
+    margin-top: 10px;
 }
 .focus-button{
     display: block;
@@ -303,7 +305,7 @@ nav{
     width: 1140px;
     height: 632px;
     margin: auto;
-    margin-top: 137px;
+    margin-top: 92px;
     display: flex;
     justify-content: space-between;
 }
@@ -370,9 +372,57 @@ nav{
     height: 62px;
     width: 501px;
     border-radius: 10px;  
+    margin-top: 10px;
 }
 .newsletter-form-button a{
    text-decoration: none;
    color: white;
 }
 /* newsletter Section start */
+
+/* Footer Section start */
+footer{
+    width: 1440px;
+    height: 428px;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer-container{
+    width: 531px;
+    height: 221px;
+    margin: 104px auto;
+}
+.footer-logo{
+    font-family: inter;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+}
+.footer-container p{
+    font-family:raleway;
+    font-size:16px;
+    font-weight:normal;
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+}
+.footer-links{
+    width: 401px;
+    height: 24px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-links li{
+    display: inline;
+    list-style: none; 
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    font-family: inter;
+    font-size: 14px;
+    font-weight: small;
+    margin-right: 20px;
+}
+/* Footer Section start */
